@@ -1,7 +1,7 @@
 import nltk
 
 
-
+nltk.download('punkt')
 from flask import Flask,request,jsonify,render_template
 from nltk.corpus import gutenberg
 from nltk.tokenize import word_tokenize
